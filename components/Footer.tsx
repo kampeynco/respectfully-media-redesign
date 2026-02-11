@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <a href="https://cal.com/respectful-media/15min" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-2 border border-primary text-primary text-sm font-bold rounded-full hover:bg-primary hover:text-secondary transition-colors">
-              Book a Fit Call
+              Book a 15-min Fit Call
             </a>
           </div>
         </div>

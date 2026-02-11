@@ -6,8 +6,17 @@ const Navbar: React.FC = () => {
   return (
     <header className="fixed w-full top-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-gray-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-40">
-          <div className="flex-shrink-0 flex items-center">
+        <div className="flex justify-between items-center h-24 md:h-40">
+          
+          {/* Mobile CTA (Replaces branding on mobile) */}
+          <div className="flex md:hidden items-center">
+             <a href="https://cal.com/respectful-media/15min" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-xs sm:text-sm font-bold rounded-full text-secondary bg-primary hover:bg-yellow-400 focus:outline-none transition-all shadow-lg shadow-primary/20 whitespace-nowrap">
+              Book a 15-min Fit Call
+            </a>
+          </div>
+
+          {/* Desktop Logo */}
+          <div className="hidden md:flex flex-shrink-0 items-center">
             <a href="#" className="flex items-center">
               <img 
                 src="https://i.postimg.cc/5yL8Ktcq/logo-nobg.png" 
@@ -16,6 +25,8 @@ const Navbar: React.FC = () => {
               />
             </a>
           </div>
+
+          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#work" className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">Work</a>
             <a href="#packages" className="text-sm font-medium text-gray-300 hover:text-primary transition-colors">Packages</a>
@@ -24,13 +35,15 @@ const Navbar: React.FC = () => {
               Book a 15-min Fit Call
             </a>
           </div>
+
+          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button 
               type="button" 
-              className="text-gray-400 hover:text-white focus:outline-none"
+              className="text-gray-400 hover:text-white focus:outline-none p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              <span className="material-symbols-outlined">{mobileMenuOpen ? 'close' : 'menu'}</span>
+              <span className="material-symbols-outlined text-3xl">{mobileMenuOpen ? 'close' : 'menu'}</span>
             </button>
           </div>
         </div>
@@ -40,6 +53,7 @@ const Navbar: React.FC = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-secondary border-b border-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Home</a>
             <a href="#work" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Work</a>
             <a href="#packages" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Packages</a>
             <a href="#process" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Process</a>
