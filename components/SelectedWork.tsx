@@ -11,7 +11,7 @@ const SelectedWork: React.FC = () => {
             <h2 className="font-display text-4xl md:text-5xl text-white mb-2 uppercase">Selected Work</h2>
             <p className="text-gray-400">Results-driven creativity in action.</p>
           </div>
-          <a href="#" className="hidden md:inline-flex items-center text-primary font-semibold hover:underline mt-4 md:mt-0">
+          <a href="https://vimeo.com/user134826215" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex items-center text-primary font-semibold hover:underline mt-4 md:mt-0">
             View Full Portfolio <span className="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
           </a>
         </div>
@@ -45,7 +45,7 @@ const SelectedWork: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center md:hidden">
-          <a href="#" className="inline-flex items-center text-primary font-semibold hover:underline">
+          <a href="https://vimeo.com/user134826215" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary font-semibold hover:underline">
             View Full Portfolio <span className="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
           </a>
         </div>

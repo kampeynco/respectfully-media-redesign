@@ -60,8 +60,8 @@ const Process: React.FC = () => {
               </ul>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-              <a href="#contact" className="text-primary font-bold hover:text-white transition-colors uppercase tracking-wider text-sm flex items-center justify-center gap-2">
-                Ready to start? Let's go <span className="material-symbols-outlined text-sm">arrow_forward</span>
+              <a href="https://cal.com/respectful-media/15min" target="_blank" rel="noopener noreferrer" className="text-primary font-bold hover:text-white transition-colors uppercase tracking-wider text-sm flex items-center justify-center gap-2">
+                Ready to Start? Book a Call <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </a>
             </div>
           </div>
