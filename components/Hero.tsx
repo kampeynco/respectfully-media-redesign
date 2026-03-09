@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
               </li>
             </ul>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a href="https://cal.com/respectful-media/15min" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-full text-secondary bg-primary hover:bg-yellow-400 transition-all shadow-lg shadow-primary/30 transform hover:-translate-y-1">
+              <a href="https://meet.app.goo.gl/?link=https://meet.google.com/vjn-jybg-wdb?pli%3D1&apn=com.google.android.apps.tachyon&isi=1096918571&ibi=com.google.Tachyon&cid=394192629043516059&_icp=1" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-full text-secondary bg-primary hover:bg-yellow-400 transition-all shadow-lg shadow-primary/30 transform hover:-translate-y-1">
                 Book a 15-min Fit Call
               </a>
               <a href="#work" className="inline-flex justify-center items-center px-8 py-4 border border-gray-600 text-base font-medium rounded-full text-white bg-transparent hover:bg-white/5 transition-all group">
