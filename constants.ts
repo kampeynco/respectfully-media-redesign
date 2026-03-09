@@ -8,48 +8,54 @@ export const WORK_ITEMS: WorkItem[] = [
     title: 'For My Kidz',
     category: 'Nonprofit • Brand Awareness',
     type: 'Interview Series',
-    imageUrl: 'https://i.postimg.cc/Ls2f5vML/for-my-kidz.png', 
-    imageAlt: 'For My Kidz interview snapshot on paper texture'
+    imageUrl: 'https://i.postimg.cc/Ls2f5vML/for-my-kidz.png',
+    imageAlt: 'For My Kidz interview snapshot on paper texture',
+    vimeoId: '1118935308'
   },
   {
     id: 'terps',
     title: 'Terps Basketball',
     category: 'Sports • Promo',
     type: 'Social Hype',
-    imageUrl: 'https://i.postimg.cc/TPfm1QXf/terps-promo.png', 
-    imageAlt: 'Maryland Terrapins M Logo'
+    imageUrl: 'https://i.postimg.cc/TPfm1QXf/terps-promo.png',
+    imageAlt: 'Maryland Terrapins M Logo',
+    vimeoId: '1149392457'
   },
   {
     id: 'govt',
     title: 'Govt Agency Work',
     category: 'Government • Internal Comms',
     type: 'Corporate',
-    imageUrl: 'https://i.postimg.cc/4xzVXqqL/govt-work.png', 
-    imageAlt: 'Government Work typography'
+    imageUrl: 'https://i.postimg.cc/4xzVXqqL/govt-work.png',
+    imageAlt: 'Government Work typography',
+    vimeoId: '953175835'
   },
   {
     id: 'acting-director',
     title: 'Acting Director Speaks',
     category: 'Public Sector • Announcement',
     type: 'Video Message',
-    imageUrl: 'https://i.postimg.cc/Nj1mQSZY/acting-director.png', 
-    imageAlt: 'Acting Director Tiffany Crowe Speaks title card'
+    imageUrl: 'https://i.postimg.cc/Nj1mQSZY/acting-director.png',
+    imageAlt: 'Acting Director Tiffany Crowe Speaks title card',
+    vimeoId: '993699068'
   },
   {
     id: 'youth-etiquette',
-    title: 'Youth Etiquette Banquet', 
+    title: 'Youth Etiquette Banquet',
     category: 'Community • Event',
     type: 'Partnership',
-    imageUrl: 'https://i.postimg.cc/7Lw7hXyJ/youth-etiquette-banquet.png', 
-    imageAlt: 'Youth Etiquette Banquet partnership card'
+    imageUrl: 'https://i.postimg.cc/7Lw7hXyJ/youth-etiquette-banquet.png',
+    imageAlt: 'Youth Etiquette Banquet partnership card',
+    vimeoId: '1077423992'
   },
   {
     id: 'christopher-mcdaniel',
     title: 'Christopher McDaniel',
     category: 'Founder Talk • Leadership',
     type: 'Profile',
-    imageUrl: 'https://i.postimg.cc/zf8Wvp1G/pg-county-barbers-assn.png', 
-    imageAlt: 'Christopher McDaniel Founder Talks overlay'
+    imageUrl: 'https://i.postimg.cc/zf8Wvp1G/pg-county-barbers-assn.png',
+    imageAlt: 'Christopher McDaniel Founder Talks overlay',
+    vimeoId: '1126687426'
   }
 ];
 

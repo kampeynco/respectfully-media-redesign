@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { WORK_ITEMS } from '../constants';
 
 const SelectedWork: React.FC = () => {
+  const [playingId, setPlayingId] = useState<string | null>(null);
+
   return (
     <section id="work" className="py-24 bg-secondary relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-800 to-transparent"></div>
@@ -15,21 +17,34 @@ const SelectedWork: React.FC = () => {
             View Full Portfolio <span className="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
           </a>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {WORK_ITEMS.map((work) => (
-            <div key={work.id} className="group cursor-pointer">
-              <div className="relative overflow-hidden rounded-xl aspect-[4/3] mb-4 border border-gray-800">
-                <img 
-                  src={work.imageUrl} 
-                  alt={work.imageAlt} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100" 
-                />
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white font-medium border border-white/50 backdrop-blur-sm px-4 py-2 rounded-full hover:bg-white hover:text-secondary transition-colors">
-                    View Case Study
-                  </span>
-                </div>
+            <div key={work.id} className="group cursor-pointer" onClick={() => setPlayingId(work.id)}>
+              <div className="relative overflow-hidden rounded-xl aspect-[4/3] mb-4 border border-gray-800 bg-black">
+                {playingId === work.id ? (
+                  <iframe
+                    src={`https://player.vimeo.com/video/${work.vimeoId}?autoplay=1&title=0&byline=0&portrait=0`}
+                    className="absolute top-0 left-0 w-full h-full"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    title={work.title}
+                  />
+                ) : (
+                  <>
+                    <img
+                      src={work.imageUrl}
+                      alt={work.imageAlt}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                    />
+                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <span className="text-white font-medium border border-white/50 backdrop-blur-sm px-4 py-2 rounded-full hover:bg-white hover:text-secondary transition-colors">
+                        Press Play
+                      </span>
+                    </div>
+                  </>
+                )}
               </div>
               <div className="flex justify-between items-start">
                 <div>

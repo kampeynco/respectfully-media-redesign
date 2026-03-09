@@ -5,6 +5,7 @@ export interface WorkItem {
   type: string;
   imageUrl: string;
   imageAlt: string;
+  vimeoId: string;
 }
 
 export interface PackageItem {

@@ -15,13 +15,10 @@ const Hero: React.FC = () => {
               Strategic Content Production
             </div>
             <h1 className="font-display text-5xl lg:text-7xl leading-tight text-white mb-6 uppercase">
-              High-trust video for <span className="relative inline-block">
-                <span className="relative z-10 text-primary">public-facing</span>
-                <span className="absolute bottom-2 left-0 w-full h-3 bg-white/5 -z-10 transform -rotate-1"></span>
-              </span> teams.
+              Building Narrative Infrastructure for <span className="text-primary">Public-facing</span> teams
             </h1>
             <p className="text-xl text-gray-400 mb-8 max-w-lg leading-relaxed">
-              We translate complex ideas into compelling, high-impact media for organizations shaping legislation, public opinion, and civic outcomes.
+              We provide <span className="text-primary">narrative infrastructure for institutions</span> in the political, public policy, and non-profit spaces. <span className="text-primary">Our competitive advantage</span> - a political science background, public policy experience, and a story-first mindset to solve complex narrative problems for organizations driving change.
             </p>
             <ul className="space-y-3 mb-10">
               <li className="flex items-center text-gray-300">
@@ -56,12 +53,12 @@ const Hero: React.FC = () => {
             
             <div className="relative flex justify-center lg:justify-start">
                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 bg-black aspect-video w-full">
-                  <iframe 
-                    src="https://player.vimeo.com/video/984595157?h=0&title=0&byline=0&portrait=0" 
-                    className="absolute top-0 left-0 w-full h-full" 
-                    frameBorder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture" 
-                    allowFullScreen 
+                  <iframe
+                    src="https://player.vimeo.com/video/1014317977?title=0&byline=0&portrait=0"
+                    className="absolute top-0 left-0 w-full h-full"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
                     title="Respectfully Media Reel"
                   ></iframe>
                </div>
