@@ -93,13 +93,13 @@ export const PACKAGES: PackageItem[] = [
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 't1',
-    vimeoId: '1145678511',
-    vimeoHash: '403c15d889'
+    vimeoId: '1141848590',
+    vimeoHash: 'bd666c086f'
   },
   {
     id: 't2',
-    vimeoId: '1141848590',
-    vimeoHash: 'bd666c086f'
+    vimeoId: '1145678511',
+    vimeoHash: '403c15d889'
   }
 ];
 
