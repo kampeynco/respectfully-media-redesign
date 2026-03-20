@@ -22,6 +22,7 @@ export interface PackageItem {
 export interface TestimonialItem {
   id: string;
   vimeoId: string;
+  vimeoHash?: string;
 }
 
 export interface FAQItem {

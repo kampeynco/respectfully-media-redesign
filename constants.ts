@@ -98,6 +98,11 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 't2',
     vimeoId: '1014317977'
+  },
+  {
+    id: 't3',
+    vimeoId: '1141848590',
+    vimeoHash: 'bd666c086f'
   }
 ];
 

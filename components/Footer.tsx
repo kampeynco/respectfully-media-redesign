@@ -2,30 +2,17 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-secondary border-t border-gray-800 mt-12">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 bg-black aspect-video w-full">
-          <iframe
-            src="https://player.vimeo.com/video/1141848590?h=bd666c086f&title=0&byline=0&portrait=0"
-            className="absolute top-0 left-0 w-full h-full"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen
-            title="Respectfully Media"
-          ></iframe>
-        </div>
-      </div>
-      <div className="border-t border-gray-800 py-16">
+    <footer className="bg-secondary py-16 border-t border-gray-800 mt-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          
+
           {/* Brand Column */}
           <div className="col-span-1 md:col-span-1">
             <a href="#" className="block mb-6">
-              <img 
-                src="https://i.postimg.cc/5yL8Ktcq/logo-nobg.png" 
-                alt="Respectfully Media" 
-                className="h-24 w-auto" 
+              <img
+                src="https://i.postimg.cc/5yL8Ktcq/logo-nobg.png"
+                alt="Respectfully Media"
+                className="h-24 w-auto"
               />
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -76,7 +63,6 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-gray-500">© 2024 Respectfully Media. All rights reserved.</p>
         </div>
-      </div>
       </div>
     </footer>
   );

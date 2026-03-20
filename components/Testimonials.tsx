@@ -47,8 +47,8 @@ const Testimonials: React.FC = () => {
                   key={testimonial.id}
                   className={`absolute inset-0 w-full h-full transition-opacity duration-500 ease-in-out ${index === activeIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
                 >
-                  <iframe 
-                    src={`https://player.vimeo.com/video/${testimonial.vimeoId}?title=0&byline=0&portrait=0`}
+                  <iframe
+                    src={`https://player.vimeo.com/video/${testimonial.vimeoId}${testimonial.vimeoHash ? `?h=${testimonial.vimeoHash}&` : '?'}title=0&byline=0&portrait=0`}
                     className="w-full h-full"
                     frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
