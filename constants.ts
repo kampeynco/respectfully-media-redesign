@@ -10,7 +10,7 @@ export const WORK_ITEMS: WorkItem[] = [
     type: 'Interview Series',
     imageUrl: 'https://i.postimg.cc/Ls2f5vML/for-my-kidz.png',
     imageAlt: 'For My Kidz interview snapshot on paper texture',
-    vimeoId: '1118935308'
+    vimeoId: '1101318670'
   },
   {
     id: 'terps',
