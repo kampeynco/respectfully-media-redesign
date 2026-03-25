@@ -50,7 +50,7 @@ export const WORK_ITEMS: WorkItem[] = [
   },
   {
     id: 'christopher-mcdaniel',
-    title: 'Christopher McDaniel',
+    title: "Interview: Founder of Prince George's County Barbers Association",
     category: 'Founder Talk • Leadership',
     type: 'Profile',
     imageUrl: 'https://i.postimg.cc/zf8Wvp1G/pg-county-barbers-assn.png',
