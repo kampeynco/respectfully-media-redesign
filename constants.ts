@@ -55,7 +55,7 @@ export const WORK_ITEMS: WorkItem[] = [
     type: 'Profile',
     imageUrl: 'https://i.postimg.cc/zf8Wvp1G/pg-county-barbers-assn.png',
     imageAlt: 'Christopher McDaniel Founder Talks overlay',
-    vimeoId: '1126687426'
+    vimeoId: '1100171963'
   }
 ];
 
