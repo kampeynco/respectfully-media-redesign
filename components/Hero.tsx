@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             <div className="relative flex justify-center lg:justify-start">
                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 bg-black aspect-video w-full">
                   <iframe
-                    src="https://player.vimeo.com/video/1014317977?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0"
+                    src="https://player.vimeo.com/video/1014317977?autoplay=1&loop=1&title=0&byline=0&portrait=0"
                     className="absolute top-0 left-0 w-full h-full"
                     frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
